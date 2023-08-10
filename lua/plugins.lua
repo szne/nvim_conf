@@ -21,6 +21,7 @@ return {
 
   -- 入力支援 --
   reqp("lexima"),
+  reqp("vim-easy-replace"),
 
   -- 検索、移動 --
   reqp("nvim-telescope"),
