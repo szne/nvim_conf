@@ -2,7 +2,7 @@ vim.g.mapleader = ' ' -- マップリーダーの設定
 
 -- Personal setting
 
-vim.keymap.set('n', '<A-t>', '<Cmd>ToggleTerm<CR>')
+vim.keymap.set('n', '<Leader>t', '<Cmd>ToggleTerm<CR>')
 vim.keymap.set('n', '<Leader><Leader>', '<Cmd>noh<CR>')
 
 -- nvim-tree.lua
