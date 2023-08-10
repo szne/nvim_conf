@@ -7,7 +7,7 @@ vim.keymap.set('n', '<Leader><Leader>', '<Cmd>noh<CR>')
 
 -- nvim-tree.lua
 
-vim.keymap.set('n', '<A-e>', '<Cmd>NvimTreeToggle<CR>')
+--vim.keymap.set('n', '<A-e>', '<Cmd>NvimTreeToggle<CR>')
 
 -- hop.nvim
 

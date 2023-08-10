@@ -4,7 +4,7 @@ return {
   event = "VeryLazy", --persistence.nvimから復活させても起動できるようにするため
   --event = {'BufNewFile', 'BufRead'},
   keys = {
-    { "<A-e>", "<CMD>NvimTreeToggle<CR>", desc = "Nvim-Tree" }
+    { "<A-e>", "<CMD>NvimTreeFocus<CR>", desc = "Nvim-Tree" }
   },
   dependencies = {
     "nvim-tree/nvim-web-devicons",
