@@ -1,7 +1,7 @@
 return {
   'akinsho/toggleterm.nvim',
   version = "*",
-  event = { 'BufNewFile', 'BufRead' },
+  event = "VeryLazy",
   config = true,
   keys = {
     {

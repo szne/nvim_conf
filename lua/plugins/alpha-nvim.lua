@@ -30,12 +30,13 @@ return {
 
     dashboard.section.buttons.val = {
       button("f", " " .. " Find file", ":Telescope find_files <CR>"),
-      button("n", " " .. " New file", ":ene <BAR> startinsert <CR>"),
       button("r", " " .. " Recent files", ":Telescope oldfiles <CR>"),
-      button("g", " " .. " Find text", ":Telescope live_grep <CR>"),
-      button("m", " " .. " Mason", ":Mason<CR>"),
+      button("t", " " .. " Find text", ":Telescope live_grep <CR>"),
       button("s", " " .. " Restore Session", [[:lua require("persistence").load() <cr>]]),
       button("l", "󰒲 " .. " Lazy", ":Lazy<CR>"),
+      button("m", " " .. " Mason", ":Mason<CR>"),
+      button("g", "󰊢 " .. " Git",
+        [[:lua require('toggleterm.terminal').Terminal:new({ cmd = "lazygit", hidden = true, dir = "git_dir", direction = "float"}):toggle() <cr>]]),
       button("q", " " .. " Quit", ":qa<CR>"),
 
     }
