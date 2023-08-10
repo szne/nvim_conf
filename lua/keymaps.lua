@@ -19,12 +19,7 @@ vim.api.nvim_set_keymap('x', '<Leader>/', '<Cmd>HopPattern<CR>', { noremap = tru
 vim.keymap.set('n', '<Leader>ff', '<cmd>lua require("telescope.builtin").find_files()<cr>', { noremap = true })
 vim.keymap.set('n', '<Leader>fg', '<cmd>lua require("telescope.builtin").live_grep()<cr>', { noremap = true })
 vim.keymap.set('n', '<Leader>fh', '<cmd>lua require("telescope.builtin").help_tags()<cr>', { noremap = true })
---vim.keymap.set("n", "<leader>fr", "<Cmd>lua require('telescope').extensions.frecency.frecency()<CR>",
-
--- Gina --
---vim.keymap.set('n', '<Leader>gs', '<cmd>Gina status<cr>', { noremap = true })
---vim.keymap.set('n', '<Leader>gs', '<cmd>Gina commit<cr>', { noremap = true })
-
+vim.keymap.set("n", "<leader>fr", "<Cmd>lua require('telescope.builtin').oldfiles()<CR>")
 
 -- barbar.nvim
 
