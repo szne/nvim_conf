@@ -12,6 +12,69 @@
 
 - lazy_nvim.lua
 
+### システム
+
+- persistence-nvim
+    - 前回開いたセッションを復元できる
+- toggleterm
+    - vimからターミナルを開きやすくする
+    - lazygitをnvim内で開くために使用
+
+### ファイラ
+
+- nvim-tree
+    - ツリービューアー、何かと便利
+    - fernと迷ったけどこっちの方が個人的に好み
+
+### ツリーシッター
+
+- nvim-treesitter
+    - いい感じにハイライトしてくれるらしい
+    - LSPとの連携とかいじりたい
+
+### LSP他
+
+- [https://zenn.dev/yuucu/articles/lazy_nvim_tuning]の.dotfileをそのまま使用したため理解不足
+- nvim-lspconfig
+- mason
+- nvim-cmp
+
+### 入力支援
+
+- lexima
+    - 括弧や""の入力を楽にしてくれる
+    - 地味に{}を改行したときのインデントもつけてくれる
+
+### 検索、移動
+
+- nvim-telescope
+    - 多機能検索プラグイン、ファイル検索やファイル内の文字列を検索できる。
+- hop-nvim
+    - EasyMotion-like plugin、キーストロークは後述のflash-nvimより多くなるけど見やすい
+- flash-nvim
+    - nvim標準の検索でマーカーをつけてくれる
+    - そのほかにもfなどの機能も使いやすくしてくれる
+
+### 表示
+
+- nvim-colorizer
+    - カラーコードに合った色を表示してくれる
+
+### GIT
+
+### UI
+
+- alpha-nvim
+    - nvim起動の画面をいじるやつ、かっこいい
+- lualine
+    - ステータスバーをいじるやつ
+- barbar
+    - タブ？を変更する
+    - 正確にはバッファをタブのように使用するプラグインという認識
+    - nvim-treeと合わせて直観的なキー操作ができるのでお気に入り
+- indent-blankline-nvim
+    - インデントを見やすくしてくれる
+
 ## 操作チートシート
 
 ### ファイラ、タブ操作
@@ -22,6 +85,14 @@
 - <A-,> タブを左へ移動
 - <A-.> タブを右へ移動
 - <A-c> タブを閉じる
+
+### GIT
+
+- <leader>g Lazygitを開く
+
+### ターミナル
+
+- <A-t> terminalを開く
 
 ## 参考にしたサイト
 
